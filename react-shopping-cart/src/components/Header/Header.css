@@ -1,0 +1,11 @@
+img {
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: 30px;
+}
