@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 
-.card-wrapper {
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
