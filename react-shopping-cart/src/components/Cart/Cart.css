@@ -1,13 +1,10 @@
 .cart {
   display: flex;
-  justify-content: space-between;
 }
 
 .circle-box {
   display: flex;
-  justify-content: center;
   align-items: center;
-
   gap: 10px;
 }
 

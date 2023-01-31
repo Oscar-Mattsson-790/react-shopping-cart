@@ -8,15 +8,15 @@ function Header({ counter, selectedProducts }) {
     <div className="header">
       <img
         src="/src/assets/2_Key-words-you-need-to-know-to-understand-Sherlock-Holmes_.jpg"
-        width={"120px"}
+        width={"240px"}
       />
       <div className="added-products-wrapper">
+        <Cart counter={counter} />
         {selectedProducts.map((book, key) => (
           <AddedProductCard title={book.title} key={key} />
         ))}
         {/* <AddedProductCard /> */}
       </div>
-      <Cart counter={counter} />
     </div>
   );
 }
