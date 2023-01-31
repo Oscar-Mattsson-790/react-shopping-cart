@@ -1,0 +1,28 @@
+h4 {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.added-products-number {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.added-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  background-color: aliceblue;
+  height: 30px;
+  width: 125px;
+  color: rgb(36, 169, 169);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.added-products-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
