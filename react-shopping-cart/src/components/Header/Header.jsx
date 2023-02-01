@@ -3,7 +3,6 @@ import Cart from "../Cart/Cart";
 import AddedProductCard from "../AddedProductCard/AddedProductCard";
 
 function Header({ counter, selectedProducts }) {
-  console.log("vilken product", selectedProducts);
   return (
     <div className="header">
       <img
@@ -15,7 +14,6 @@ function Header({ counter, selectedProducts }) {
         {selectedProducts.map((book, key) => (
           <AddedProductCard title={book.title} key={key} />
         ))}
-        {/* <AddedProductCard /> */}
       </div>
     </div>
   );

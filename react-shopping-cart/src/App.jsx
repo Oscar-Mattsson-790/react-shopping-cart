@@ -33,7 +33,6 @@ const books = [
 function App() {
   const [counter, setCounter] = useState(0);
   const [selectedProducts, setSelectedProducts] = useState([]);
-  // const [isAlreadySelected, setIsAlreadySelected] = useState(false);
 
   function handleClick(book) {
     let isAlreadySelected = false;
