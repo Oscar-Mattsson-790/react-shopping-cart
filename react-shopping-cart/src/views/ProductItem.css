@@ -1,0 +1,9 @@
+.product-item-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.product-item-header {
+  color: aliceblue;
+}
