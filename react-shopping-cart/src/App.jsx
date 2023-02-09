@@ -2,7 +2,6 @@ import "./App.css";
 import { useState } from "react";
 import Product from "./components/Product/Product";
 import Header from "./components/Header/Header";
-import ProductItem from "./views/ProductItem";
 
 const books = [
   {
