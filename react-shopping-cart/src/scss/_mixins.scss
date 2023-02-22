@@ -1,0 +1,17 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin layout-grid($breakpoint) {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 1rem;
+
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 480px) {
+      grid-template-columns: 100%;
+    }
+  }
+}

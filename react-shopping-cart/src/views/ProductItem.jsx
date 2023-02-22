@@ -1,4 +1,5 @@
-import "./ProductItem.css";
+import "./ProductItem.scss";
+import { Link } from "react-router-dom";
 
 export default function ProductItem() {
   return (
@@ -14,6 +15,9 @@ export default function ProductItem() {
             expedita eos voluptates quod tenetur qui velit id unde fugiat rem
             aspernatur?
           </p>
+          <Link to="/">
+            <button>Go back</button>
+          </Link>
         </div>
       </div>
     </div>

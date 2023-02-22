@@ -1,4 +1,4 @@
-import "./Cart.css";
+import "./Cart.scss";
 
 function Cart({ counter }) {
   return (

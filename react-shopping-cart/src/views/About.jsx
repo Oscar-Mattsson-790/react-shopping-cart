@@ -1,5 +1,6 @@
 import React from "react";
-import "./About.css";
+import "./About.scss";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -37,6 +38,9 @@ export default function About() {
         repudiandae itaque quam, accusantium sint. Distinctio voluptas unde cum
         itaque? Saepe.
       </p>
+      <Link to="/">
+        <button>Go back</button>
+      </Link>
     </div>
   );
 }

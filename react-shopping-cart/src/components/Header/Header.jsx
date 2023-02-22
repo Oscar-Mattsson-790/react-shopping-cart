@@ -1,6 +1,7 @@
-import "./Header.css";
+import "./Header.scss";
 import Cart from "../Cart/Cart";
 import AddedProductCard from "../AddedProductCard/AddedProductCard";
+import { Link } from "react-router-dom";
 
 function Header({ counter, selectedProducts }) {
   return (
@@ -10,6 +11,9 @@ function Header({ counter, selectedProducts }) {
         width={"240px"}
       />
       <div className="added-products-wrapper">
+        <Link to="/about" style={{ textDecoration: "none" }}>
+          <h1 className="about">About</h1>
+        </Link>
         <Cart counter={counter} />
         {selectedProducts.map((book, key) => (
           <AddedProductCard title={book.title} key={key} />

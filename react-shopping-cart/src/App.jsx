@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { useState } from "react";
 import Product from "./components/Product/Product";
 import Header from "./components/Header/Header";
@@ -62,7 +62,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="wrapper">
         <Header counter={counter} selectedProducts={selectedProducts} />
         {books.map((book, key) => (

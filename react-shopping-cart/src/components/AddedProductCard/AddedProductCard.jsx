@@ -1,4 +1,4 @@
-import "./AddedProductCard.css";
+import "./AddedProductCard.scss";
 
 function AddedProductCard({ title }) {
   return (
